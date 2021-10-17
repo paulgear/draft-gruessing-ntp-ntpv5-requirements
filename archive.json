@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-10-14T00:36:27.805728+00:00",
+  "timestamp": "2021-10-17T00:38:19.804688+00:00",
   "repo": "fiestajetsam/draft-gruessing-ntp-ntpv5-requirements",
   "labels": [
     {
@@ -113,6 +113,22 @@
           "updatedAt": "2020-12-31T14:09:00Z"
         }
       ]
+    },
+    {
+      "number": 4,
+      "id": "I_kwDOGM-2Jc49Oeux",
+      "title": "Security Considerations",
+      "url": "https://github.com/fiestajetsam/draft-gruessing-ntp-ntpv5-requirements/issues/4",
+      "state": "OPEN",
+      "author": "fiestajetsam",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Two things need fixing here:\r\n\r\n1. The Security Considerations section is in relation to the document, not to the specification. The prose in there needs to be split out into a different structure.\r\n2. The language around encryption needs re-work, as even some very smart people are asking questions. For example I should probably ditch \"encryption\" and instead talk about \"confidentiality\" and \"authentication\", perhaps even expanding the definitions in the notational conventions section,",
+      "createdAt": "2021-10-15T08:26:50Z",
+      "updatedAt": "2021-10-15T08:26:50Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": []
