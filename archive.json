@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-12-02T00:38:31.861848+00:00",
+  "timestamp": "2021-12-05T00:42:13.436492+00:00",
   "repo": "fiestajetsam/draft-gruessing-ntp-ntpv5-requirements",
   "labels": [
     {
@@ -159,6 +159,22 @@
       "body": "The biggest editorial issue with this draft is the use of language that conflates requirements of the protocol, versus requirements of the specification(s) which will define it. In reality, this document should be using language that targets the protocol requirements first at foremost, maybe with suggestions on what to include in the specification as non-normative.",
       "createdAt": "2021-11-13T11:05:38Z",
       "updatedAt": "2021-11-13T11:05:38Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOGM-2Jc4_vjzE",
+      "title": "Stronger leap second transmission requirements",
+      "url": "https://github.com/fiestajetsam/draft-gruessing-ntp-ntpv5-requirements/issues/7",
+      "state": "OPEN",
+      "author": "fiestajetsam",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "[Doug writes](https://mailarchive.ietf.org/arch/msg/ntp/uAiuAXFQfHsfVixsFw7MjwDpqyQ/):\r\n\r\n> We could consider a stronger requirement, such as:\r\n>\r\n>The specification MUST require that servers transmit upcoming leap seconds greater than 1 calendar day in advance if that information is known by the server. If the server learns of a leap second less than 1 calendar day before a leap second event, it will start transmitting the information immediately.\r\n\r\nI agree with this and should think about including something like it (noting that I want to make protocol not specification requirements.",
+      "createdAt": "2021-12-02T11:21:45Z",
+      "updatedAt": "2021-12-02T11:21:45Z",
       "closedAt": null,
       "comments": []
     }
